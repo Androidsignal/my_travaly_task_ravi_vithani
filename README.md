@@ -1,16 +1,24 @@
-# my_travaly_task
+# MyTravaly Flutter Task – 3 Page App
 
-MyTravaly Task
+Google Sign UI → Hotel List (search) → Paginated Results.
 
-## Getting Started
+## Preview
+- **Page 1:** Google Sign In/Up (UI only; no backend call)
+- **Page 2:** Home – list of sample hotels + search
+- **Page 3:** Results – fetched from API with pagination
 
-This project is a starting point for a Flutter application.
+## Tech
+- Flutter, Dart
+- `flutter_bloc`, `http`
 
-A few resources to get you started if this is your first Flutter project:
+## API
+- Base: `https://api.mytravaly.com/public/v1/`
+- Auth Token: `71523fdd8d26f585315b4233e39d9263`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> Token is sent with each request via `Authorization: Bearer <TOKEN>`.  
+> Query params used: `query`, `page`, `per_page` (configurable in code).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+```bash
+flutter pub get
+flutter run
