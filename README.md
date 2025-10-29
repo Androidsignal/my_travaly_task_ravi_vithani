@@ -14,9 +14,7 @@ Google Sign UI → Hotel List (search) → Paginated Results.
 ## API
 - Base: `https://api.mytravaly.com/public/v1/`
 - Auth Token: `71523fdd8d26f585315b4233e39d9263`
-
-> Token is sent with each request via `Authorization: Bearer <TOKEN>`.  
-> Query params used: `query`, `page`, `per_page` (configurable in code).
+ 
 
 ## Run
 ```bash
