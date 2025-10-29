@@ -1,22 +1,38 @@
-# MyTravaly Flutter Task – 3 Page App
+# MyTravaly Flutter Task – 3 Page App  
+_By **Ravi Vithani** (Flutter Developer)_
 
-Google Sign UI → Hotel List (search) → Paginated Results.
+---
 
-## Preview
-- **Page 1:** Google Sign In/Up (UI only; no backend call)
-- **Page 2:** Home – list of sample hotels + search
-- **Page 3:** Results – fetched from API with pagination
+## Overview
+A 3-page Flutter app built for the **MyTravaly technical task**.  
+Implements:
+1. **Google Sign-In UI (frontend only)**
+2. **Home Page** – hotel list + search
+3. **Search Results Page** – API data + pagination
 
-## Tech
-- Flutter, Dart
-- `flutter_bloc`, `http`
+---
+
+## Developer
+**Name:** Ravi Vithani  
+**Role:** Flutter Developer (6+ years experience)  
+**Email:** vithaniravi.vr@gmail.com   
+
+---
+
+## Tech Stack
+- Flutter, Dart  
+- `flutter_bloc`, `dio`, `freezed`, `json_serializable`  
+- Structured with `data/`, `domain/`, `presentation/` layers  
+
+---
 
 ## API
-- Base: `https://api.mytravaly.com/public/v1/`
-- Auth Token: `71523fdd8d26f585315b4233e39d9263`
- 
+- Base URL: `https://api.mytravaly.com/public/v1/`  
+- Auth Token: `71523fdd8d26f585315b4233e39d9263`  
 
-## Run
+---
+
+## Setup
 ```bash
 flutter pub get
 flutter run
